@@ -1,0 +1,36 @@
+.footer {
+    font-size: $font-size-footer;
+    line-height: $line-height-footer;
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+}
+
+.footer-info {
+    width: 30%;
+
+
+    &__logo-holder {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    &__text-holder {
+        margin-bottom: 15px;
+
+        &_about {
+            margin-bottom: 84px;
+        }
+    }
+
+    &__copyright{
+        color: $black-4;
+    }
+}
+
+.footer-menu {
+    width: 40%;
+}

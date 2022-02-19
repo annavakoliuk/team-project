@@ -45,12 +45,13 @@ img {
 }
 
 .heading_h-1 {
-  font-size: 36px;
-  line-height: 45px;
+  font-size: 47px;
+  line-height: 60px;
 }
 @media (max-width: 639px) {
   .heading_h-1 {
-    padding: 0 16px;
+    font-size: 36px;
+    line-height: 45px;
   }
 }
 
@@ -69,6 +70,7 @@ img {
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .heading_h-4 {
@@ -127,4 +129,39 @@ img {
   src: url("../fonts/poppins-semibold-webfont.woff2") format("woff2"), url("../fonts/poppins-semibold-webfont.woff") format("woff"), url("../fonts/poppins-semibold-webfont.ttf") format("truetype"), url("../fonts/poppins-semibold-webfont.svg#poppinssemibold") format("svg");
   font-weight: 600;
   font-style: normal;
+}
+.footer {
+  font-size: 14px;
+  line-height: 22px;
+}
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer-info {
+  width: 30%;
+}
+.footer-info__logo-holder {
+  width: 40%;
+  margin-bottom: 20px;
+}
+.footer-info__text-holder {
+  margin-bottom: 15px;
+}
+.footer-info__text-holder_about {
+  margin-bottom: 84px;
+}
+.footer-info__copyright {
+  color: rgba(29, 31, 46, 0.3);
+}
+
+.footer-menu {
+  width: 40%;
 }

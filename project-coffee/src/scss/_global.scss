@@ -51,11 +51,12 @@ img {
 
 //h1 в hero section
 .heading_h-1 {                      
-    font-size: $font-size-h1-m;
-    line-height: $line-height-h1-m;
+    font-size: $font-size-h1;
+    line-height: $line-height-h1;
 
     @include breakpoint('sm') {
-        padding: 0 16px;
+        font-size: $font-size-h1-m;
+        line-height: $line-height-h1-m;
     }
 }
 
@@ -75,6 +76,7 @@ img {
     font-size: $font-size-h3;
     line-height: $line-height-h3;
     letter-spacing: $letter-spacing-h3;
+    text-transform: uppercase;
 }
 
 //h4 - секція преміум офер, і секція sign up
