@@ -21,6 +21,11 @@ img {
     display: block;
 }
 
+a{
+    text-decoration: none;
+    color: $black-1;
+}
+
 .container {
     width: 100%;
     max-width: 980px;
