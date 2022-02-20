@@ -21,6 +21,10 @@ img {
     display: block;
 }
 
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
 .container {
     width: 100%;
     max-width: 980px;
@@ -51,11 +55,12 @@ img {
 
 //h1 в hero section
 .heading_h-1 {                      
-    font-size: $font-size-h1-m;
-    line-height: $line-height-h1-m;
+    font-size: $font-size-h1;
+    line-height: $line-height-h1;
 
     @include breakpoint('sm') {
-        padding: 0 16px;
+        font-size: $font-size-h1-m;
+        line-height: $line-height-h1-m;
     }
 }
 
