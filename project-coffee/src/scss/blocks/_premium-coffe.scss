@@ -15,6 +15,14 @@
 
     &__title-holder{
         padding: 0 0 100px;
+
+
+    }
+
+    &__title {
+        @include breakpoint ('xs'){
+            max-width: 200px;
+        }
     }
 
     &__img-holder{

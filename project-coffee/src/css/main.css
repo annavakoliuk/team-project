@@ -680,6 +680,7 @@ h1, h2, h3, h4, p {
             flex-direction: column;
     margin: 0 0 20px;
     width: 100%;
+    padding: 0;
   }
 }
 .nav__item {
@@ -832,6 +833,11 @@ h1, h2, h3, h4, p {
 }
 .premium-coffe__title-holder {
   padding: 0 0 100px;
+}
+@media (max-width: 567px) {
+  .premium-coffe__title {
+    max-width: 200px;
+  }
 }
 .premium-coffe__img-holder {
   width: 50%;
