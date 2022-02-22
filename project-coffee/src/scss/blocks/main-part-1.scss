@@ -1,8 +1,4 @@
-@import 'var';
-
-// Це краще перемістити в глобал-----------------
-
-
+// Діма
 
 .container {
     &_flex {
@@ -12,7 +8,6 @@
     }
 }
 
-// ----------------------------------
 
 .cup-card {
     width: 49%;
@@ -67,6 +62,7 @@
     text-align: center;
     background-color: #050827;
     margin-bottom: 123px;
+    padding: 0 10px;
 
 		&__text-holder {
 		}
@@ -106,7 +102,7 @@
 
 .description {
     text-align: center;
-    margin-bottom: 98px;
+    margin-bottom: 100px;
 
 		&__text-holder {
             max-width: 660px;
@@ -115,12 +111,14 @@
             p {
                 line-height: 28px;
                 color: $black-2;
+                margin-bottom: 20px;
             }
 		}
 
 		&__title {
             font-weight: normal;
             color: $black-1;
+            margin-bottom: 16px;
 		}
 
 		&__link {
@@ -133,7 +131,7 @@
 }
 
 .featured {
-    margin-bottom: 115px;
+    margin-bottom: 100px;
 
     @include breakpoint(mb) {
         margin-bottom: 100px;
@@ -153,6 +151,7 @@
 }
 
 .products {
+    margin-bottom: 100px;
 
     &__title {
         font-weight: normal;

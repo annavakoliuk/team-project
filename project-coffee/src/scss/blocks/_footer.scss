@@ -1,3 +1,5 @@
+//Аня
+
 .footer {
     font-size: $font-size-footer;
     line-height: $line-height-footer;
@@ -29,7 +31,8 @@
 
     &__logo-holder {
         margin-bottom: 20px;
-        width: 108px;
+        width: 40%;
+        min-width: 111px;
     }
 
     &__text-holder {
@@ -62,7 +65,7 @@
     }
 
     @include breakpoint ('sm') {
-        width: 70%;
+        width: 100%;
     }
 
     display: flex;

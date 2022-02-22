@@ -1,3 +1,5 @@
+//Аня
+
 .sign-up {
     margin-bottom: 100px;
     padding: 80px 0;
@@ -13,11 +15,6 @@
 
     &__subtitle-holder {
         margin-bottom: 15px;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
     }
 
     &__title-holder {
@@ -55,17 +52,16 @@
         background-color: $black-1;
         padding: 18px;
 
-        &::placeholder {
-            color: $white;
-            font-size: $font-size-capitalized;
-            line-height: $line-height-capitalized;
-            letter-spacing: $letter-spacing-capitalized;
-            text-transform: uppercase;  
-            
-            @include breakpoint ('sm') {
-                text-align: center;
-            }
+        color: $white;
+        font-size: $font-size-capitalized;
+        line-height: $line-height-capitalized;
+        letter-spacing: $letter-spacing-capitalized;
+        text-transform: uppercase;  
+        
+        @include breakpoint ('sm') {
+            text-align: center;
         }
+
     }
     &__btn-holder {
         width: 30%;
@@ -83,23 +79,3 @@
     border: none;
 }
 
-.heading-decoration {
-    display: block;
-    height: 1px;
-    max-width: 30px;
-    width: 5%;
-    background-color: $gray-3;
-
-    @include breakpoint('xxs') {
-        display: none;
-    }
-
-
-    &_right {
-        margin-left: 15px;
-    }
-
-    &_left {
-        margin-right: 15px;
-    }
-}

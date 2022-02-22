@@ -16,6 +16,10 @@ body {
     color: $black-1;
 }
 
+.main {
+    padding-top: 136px;
+}
+
 h1, h2, h3, h4 {
     padding: 0;
     margin: 0;
@@ -95,6 +99,8 @@ h1, h2, h3, h4, p{
     text-transform: uppercase;
 }
 
+
+
 //h4 - секція преміум офер, і секція sign up
 .heading_h-4 {
     font-size: $font-size-h4;
@@ -128,4 +134,45 @@ h1, h2, h3, h4, p{
 .btn_black{
     color: $white;
     background-color: $black-1;
+}
+
+
+
+
+//лінії біля заголовків h3
+
+.heading-decoration {
+    display: block;
+    height: 1px;
+    max-width: 30px;
+    width: 5%;
+
+    @include breakpoint('xxs') {
+        display: none;
+    }
+
+
+    &_right {
+        margin-left: 15px;
+    }
+
+    &_left {
+        margin-right: 15px;
+    }
+
+    &_light {
+        background-color: $gray-3;
+    }
+
+    &_dark {
+        background-color: $gray-1;
+    }
+}
+
+.h3-title-holder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }

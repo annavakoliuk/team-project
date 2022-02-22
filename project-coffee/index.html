@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="src/css/main.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-			  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-			  crossorigin="anonymous"></script>
-    <script src="src/js/main.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet"> 
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="src/css/main.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+	        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+	        crossorigin="anonymous"></script>
+	<script src="src/js/main.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -86,7 +86,11 @@
         </section>
         <section class="featured">
             <div class="container">
-                <h3 class="featured__title heading_h-3">Featured Mugs</h3>
+                <div class="featured__title h3-title-holder">
+                    <span class="heading-decoration heading-decoration_left heading-decoration_dark"></span>
+                    <h3 class="heading heading_h-3">Featured Mugs</h3>
+                    <span class="heading-decoration heading-decoration_right heading-decoration_dark"></span>
+                 </div>
                 <div class="container_flex">
                     <div class="cup-card">
                         <div class="cup-card__img-holder">
@@ -108,7 +112,11 @@
         </section>
         <section class="products">
             <div class="container">
-                <h3 class="products__title heading_h-3">More Products</h3>
+                <div class="products__title h3-title-holder">
+                    <span class="heading-decoration heading-decoration_left heading-decoration_dark"></span>
+                    <h3 class="heading heading_h-3">More products</h3>
+                    <span class="heading-decoration heading-decoration_right heading-decoration_dark"></span>
+                 </div>
                 <div class="container_flex">
                     <div class="cup-card cup-card_small">
                         <div class="cup-card__img-holder">
@@ -188,44 +196,82 @@
         </section>
         <section class="premium-coffe">
             <div class="container">
-                <div class="premium-coffe__title-holder">
-                     <h3 class="heading heading_h-3">Buy 2 mugs and get a coffee magazine free</h1>
-                </div>
-                <div class="premium-coffe__holder">
-                     <div class="premium-coffe__img-holder">
-                         <div>
-                             <img src="src/image/notebook.png" alt="image description" class="premium-coffe__hero-img">
-                         </div>
-                         <div class="premium-coffe__img-colum">
-                             <div class="premium-coffe__img-item">
-                                 <img src="src/image/mug-hands.png" alt="image description" class="premium-coffe__second-img">
-                             </div>
-                             <div class="premium-coffe__img-item">
-                                 <img src="src/image/mug-spoon.png" alt="image description" class="premium-coffe__second-img">
-                             </div>
-                         </div>
-                     </div>
-                     <div class="premium-coffe__text-holder">
-                         <span class="premium-coffe__offer">Premium Offer</span>
-                         <div class="premium-coffe__title-offer">
-                             <h4 class="heading heading_h-4">Get our Coffee Magazine</h4>
-                         </div>
-                         <div class="premium-coffe__title-description">
-                             <p>The most versatile furniture system ever created. Designed to fit your life.</p>
-                         </div>
-                         <div class="premium-coffe__btn-holder">
-                             <a href="#" class="btn btn_black">Start Shopping</a>
-                         </div>
-                     </div>
+                <div class="premium-coffe__title-holder h3-title-holder">
+                    <span class="heading-decoration heading-decoration_left heading-decoration_dark"></span>
+                    <h3 class="heading heading_h-3">Buy 2 mugs and get a coffee magazine free</h3>
+                    <span class="heading-decoration heading-decoration_right heading-decoration_dark"></span>
+                 </div>
+                 <div class="premium-coffe__holder">
+                    <div class="premium-coffe__img-holder">
+                        <div>
+                            <img src="src/image/notebook.png" alt="image description" class="premium-coffe__hero-img">
+                        </div>
+                        <div class="premium-coffe__img-colum">
+                            <div class="premium-coffe__img-item">
+                                <img src="src/image/mug-hands.png" alt="image description" class="premium-coffe__second-img">
+                            </div>
+                            <div class="premium-coffe__img-item">
+                                <img src="src/image/mug-spoon.png" alt="image description" class="premium-coffe__second-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="premium-coffe__text-holder">
+                        <span class="premium-coffe__offer">Premium Offer</span>
+                        <div class="premium-coffe__title-offer">
+                            <h4 class="heading heading_h-4">Get our Coffee Magazine</h4>
+                        </div>
+                        <div class="premium-coffe__title-description">
+                            <p>The most versatile furniture system ever created. Designed to fit your life.</p>
+                        </div>
+                        <div class="premium-coffe__btn-holder">
+                            <a href="#" class="btn btn_black">Start Shopping</a>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </section>
+        <section class="lifestyle-section">
+            <div class="lifestyle-section__image-holder">
+                <img src="src/image/background-2.png" alt="img">
+            </div>
+            <div class="lifestyle-section__title h3-title-holder">
+                <span class="heading-decoration heading-decoration_left heading-decoration_dark"></span>
+                <h3 class="heading heading_h-3">Behind the mugs, lifestyle stories</h3>
+                <span class="heading-decoration heading-decoration_right heading-decoration_dark"></span>
+             </div>
+            <div class="container">
+                <div class="lifestyle-section__blocks">
+                    <div class="lifestyle-section__col">
+                        <img class="lifestyle-section__image" src="src/image/restaurant-1.png" alt="image">
+                        <strong class="col__title">Health Check: why do I get a headache when I haven’t had my coffee?</strong>
+                        <p class="col__desc">It is a paradisematic country, in which roasted parts of sentences fly into your
+                            mouth.</p>
+                        <span class="col__span">October 9, 2018</span>
+                    </div>
+                    <div class="lifestyle-section__col">
+                        <img class="lifestyle-section__image" src="src/image/restaurant-2.png" alt="image">
+                        <strong class="col__title">How long does a cup of coffee keep you awake?</strong>
+                        <p class="col__desc">It is a paradisematic country, in which roasted parts. Vel qui et ad
+                            voluptatem.</p>
+                        <span class="col__span">October 9, 2018</span>
+                    </div>
+                    <div class="lifestyle-section__col">
+                        <img class="lifestyle-section__image" src="src/image/cofee-on-table.png" alt="image">
+                        <strong class="col__title">Recent research suggests that heavy coffee drinkers may reap health
+                            benefits.</strong>
+                        <p class="col__desc">It is a paradisematic country, in which roasted parts of sentences fly into your
+                            mouth.</p>
+                        <span class="col__span">October 9, 2018</span>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="sign-up">
             <div class="container">
-                <div class="sign-up__subtitle-holder">
-                    <span class="heading-decoration heading-decoration_left"></span>
+                <div class="sign-up__subtitle-holder h3-title-holder">
+                    <span class="heading-decoration heading-decoration_left heading-decoration_light"></span>
                     <h3 class="heading heading_h-3">Sign up and get free coffee bags</h3>
-                    <span class="heading-decoration heading-decoration_right"></span>
+                    <span class="heading-decoration heading-decoration_right heading-decoration_light"></span>
                  </div>
                  <div class="sign-up__title-holder">
                     <h4 class="heading heading_h-4">Coffee Updates</h4>
@@ -247,7 +293,7 @@
          <div class="footer-info">
              <div class="footer-info__logo-holder">
                  <a href="#" class="footer-info__logo-link">
-                     <img src="src/image/logo.png" alt="logo" class="logo">
+                     <img src="src/image/logo.png" alt="logo" class="footer-info-logo">
                  </a>
              </div>
              <div class="footer-info__text-holder footer-info__text-holder_about">

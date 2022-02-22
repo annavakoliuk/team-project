@@ -1,6 +1,12 @@
+//Богдан
+
 .header{
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     padding: 28px 0;
+    background-color: $white;
 
     .container{
         display: flex;
@@ -35,6 +41,7 @@
 }
 
 .logo{
+    z-index: 3;
     @include breakpoint ('md'){
         padding: 50px;
     }
@@ -67,6 +74,7 @@
         background-color: $white;
         transform: translateX(-100%);
         transition: all ease-in-out 0.3s;
+        padding-top: 136px;
     }
 
     &__list{
@@ -97,15 +105,17 @@
 }
 
 .cart{
+    z-index: 3;
     &__list{
         list-style: none;
         display: flex;
         align-items: center;
+        padding: 0;
 
-        @include breakpoint('xs'){
-            display: flex;
-            flex-direction: column;            
-        }
+        // @include breakpoint('xs'){
+        //     display: flex;
+        //     flex-direction: column;            
+        // }
     }
 
     &__img{
@@ -114,11 +124,11 @@
 
     &__item{
         display: inline-block;
-        padding: 0 10px 0 0;
+        margin: 0 10px 0 0;
 
-        @include breakpoint ('xs'){
-            padding: 0 0 20px;
-        }
+        // @include breakpoint ('xs'){
+        //     padding: 0 0 20px;
+        // }
     }
 
     &__btn{
